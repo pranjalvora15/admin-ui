@@ -1,0 +1,38 @@
+.table-content {
+  overflow-x: auto;
+}
+
+.table-body {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 1rem 0;
+  overflow-x: auto;
+}
+
+.table-body > * {
+  text-align: start;
+}
+
+.edit-icon {
+  color: lightseagreen;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: rgba(255, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.save-button {
+  border: none;
+  border-radius: 4px;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.save-button:active {
+  transform: translateY(3px);
+}
